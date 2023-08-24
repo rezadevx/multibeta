@@ -1,0 +1,59 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+
+DEVS = [
+    1054295664,
+    1755047203,
+    1898065191,
+    2133148961,
+    5876222922,
+    1889573907,
+    1966129176,
+    5063062493,
+    1810243126,
+    1936017380,
+    6002994221,
+    2073506739,
+    2033762302,
+    793488327,
+    5357942628,
+    5013987239,
+    876054262,
+    1964437366,
+    5703310502,
+]
+
+KYNAN = list(map(int, os.getenv("KYNAN", "1054295664 5013987239 5357942628 1898065191").split()))
+
+API_ID = int(os.getenv("API_ID", "28358285"))
+
+API_HASH = os.getenv("API_HASH", "8930157ab19270574cd27b89f215d49a")
+
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+
+SESSION = os.getenv("SESSION", "")
+
+OWNER_ID = int(os.getenv("OWNER_ID", "1054295664"))
+
+USER_ID = list(map(int, os.getenv("USER_ID", "1054295664 5013987239 1898065191 5357942628 816526222 6104161118").split()))
+
+LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001824645364"))
+
+BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1001876092598 -1001864253073 -1001451642443 -1001825363971 -1001797285258 -1001927904459 -1001287188817 -1001812143750 -1001608701614 -1001473548283").split()))
+
+MAX_BOT = int(os.getenv("MAX_BOT", "20"))
+
+RMBG_API = os.getenv("RMBG_API", "a6qxsmMJ3CsNo7HyxuKGsP1o")
+
+OPENAI_KEY = os.getenv(
+    "OPENAI_KEY",
+    "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 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",
+).split()
+
+MONGO_URL = os.getenv(
+    "MONGO_URL",
+    "",
+)
