@@ -11,11 +11,11 @@ async def profile_command(client, message):
     else:
         status2 = "tidak aktif"
     if dia == OWNER_ID:
-        status = "<b>premium</b> <code>[kepala toko]</code>"
+        status = "<b>SuperVip</b> <code>[Boss]</code>"
     elif dia in await get_seles():
-        status = "<b>premium</b> <code>[kasir]</code>"
+        status = "<b>SuperPlus</b> <code>[Karyawan]</code>"
     else:
-        status = "<b>premium</b> <code>[pembeli]</code>"
+        status = "<b>SuperPlus</b> <code>[pembeli]</code>"
 
     uptime = await get_time((time() - start_time))
     start = datetime.now()
@@ -29,7 +29,7 @@ async def profile_command(client, message):
     b = InlineKeyboardMarkup([[InlineKeyboardButton(
       text="Tutup", callback_data="0_cls")]])
     await message.reply_text(f"""
-<b>NayUbot</b>
+<b>saza-ubot</b>
     <b>Status Ubot:</b> <code>{status2}</code>
       <b>Status Pengguna:</b> <i>{status}</i>
       <b>Prefixes :</b> <code>{prefix[0]}</code>
@@ -51,11 +51,11 @@ async def ewdsfgj(client, callback_query):
         status2 = "tidak aktif"
         
     if user_id == OWNER_ID:
-        status = "<b>premium</b> <code>[kepala toko]</code>"
+        status = "<b>SuperVip</b> <code>[Boss]</code>"
     elif user_id in await get_seles():
-        status = "<b>premium</b> <code>[kasir]</code>"
+        status = "<b>SuperPlus</b> <code>[karyawan]</code>"
     else:
-        status = "<b>premium</b> <code>[pembeli]</code>"
+        status = "<b>SuperPlus</b> <code>[pembeli]</code>"
     uptime = await get_time((time() - start_time))
     start = datetime.now()
     await client.invoke(Ping(ping_id=0))
@@ -89,7 +89,7 @@ async def ewdsfgj(client, callback_query):
         )
 
     await callback_query.edit_message_text(f"""
-<b>NayUbot</b>
+<b>saza-ubot</b>
     <b>Status Ubot:</b> <code>{status2}</code>
       <b>Status Pengguna:</b> <i>{status}</i>
       <b>Prefixes :</b> <code>{prefix[0]}</code>
