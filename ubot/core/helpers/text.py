@@ -66,7 +66,7 @@ Anda tidak lagi berhak atas pengembalian dana.
 🆘 Dukungan
 Untuk mendapatkan dukungan, Anda dapat:
 • Menghubungi admin dibawah ini
-• Support @KynanSupport di Telegram
+• Support @zasupport di Telegram
 ⚠️ JANGAN menghubungi Dukungan Telegram atau Dukungan Bot untuk meminta dukungan terkait pembayaran yang dilakukan di bot ini.
 👉🏻 Tekan tombol Lanjutkan untuk menyatakan bahwa Anda telah
 membaca dan menerima ketentuan ini dan melanjutkan
