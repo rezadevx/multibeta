@@ -208,11 +208,11 @@ async def bikin_ubot(client, callback_query):
     await bot_msg.edit(text_done)
     await install_my_peer(new_client)
     try:
+        await new_client.join_chat("zasupport")
         await new_client.join_chat("kynansupport")
-        await new_client.join_chat("kontenfilm")
-        await new_client.join_chat("amwangsupport")
+        await new_client.join_chat("saandza")
         await new_client.join_chat("abtnaaa")
-        await new_client.join_chat("KazuSupportGrp")
+        await new_client.join_chat("storesaza")
     except UserAlreadyParticipant:
         pass
     return await bot.send_message(
