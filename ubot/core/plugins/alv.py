@@ -46,7 +46,7 @@ async def alive_query(client, inline_query):
             ping = (datetime.now() - start).microseconds / 1000
             uptime = await get_time((time() - start_time))
             msg = f"""
-<b>saza-ubot</b>
+<b>reza-ubot</b>
     <b>status:</b> {status} 
       <b>dc_id:</b> <code>{my.me.dc_id}</code>
       <b>ping_dc:</b> <code>{str(ping).replace('.', ',')} ms</code>
