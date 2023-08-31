@@ -15,7 +15,7 @@ API_ID = int(os.getenv("API_ID", "23855532"))
 
 API_HASH = os.getenv("API_HASH", "3cc6eac0a9fbfe0b2b1da77f043cc9c9")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6309725414:AAEC0AKwPttrgKoOAwW_FtjBWIIBLSuUKxs")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6309725414:AAHWXXWuvRrZ21PYPi3YD-SdQe1BlUvCT3o")
 
 SESSION = os.getenv("SESSION", "")
 
