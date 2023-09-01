@@ -13,7 +13,7 @@ async def profile_command(client, message):
     if dia == OWNER_ID:
         status = "<b>SuperVip</b> <code>[Boss]</code>"
     elif dia in await get_seles():
-        status = "<b>SuperPlus</b> <code>[Karyawan]</code>"
+        status = "<b>SuperPlus</b> <code>[fakedevs]</code>"
     else:
         status = "<b>SuperPlus</b> <code>[pembeli]</code>"
 
@@ -29,7 +29,7 @@ async def profile_command(client, message):
     b = InlineKeyboardMarkup([[InlineKeyboardButton(
       text="Tutup", callback_data="0_cls")]])
     await message.reply_text(f"""
-<b>saza-ubot</b>
+<b>reza-ubot</b>
     <b>Status Ubot:</b> <code>{status2}</code>
       <b>Status Pengguna:</b> <i>{status}</i>
       <b>Prefixes :</b> <code>{prefix[0]}</code>
@@ -53,7 +53,7 @@ async def ewdsfgj(client, callback_query):
     if user_id == OWNER_ID:
         status = "<b>SuperVip</b> <code>[Boss]</code>"
     elif user_id in await get_seles():
-        status = "<b>SuperPlus</b> <code>[karyawan]</code>"
+        status = "<b>SuperPlus</b> <code>[fakedevs]</code>"
     else:
         status = "<b>SuperPlus</b> <code>[pembeli]</code>"
     uptime = await get_time((time() - start_time))
@@ -89,7 +89,7 @@ async def ewdsfgj(client, callback_query):
         )
 
     await callback_query.edit_message_text(f"""
-<b>saza-ubot</b>
+<b>reza-ubot</b>
     <b>Status Ubot:</b> <code>{status2}</code>
       <b>Status Pengguna:</b> <i>{status}</i>
       <b>Prefixes :</b> <code>{prefix[0]}</code>
