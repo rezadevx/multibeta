@@ -11,11 +11,9 @@ async def start_ubot(user_id, _ubot):
     ubot_ = Ubot(**_ubot)
     try:
         await asyncio.wait_for(ubot_.start(), timeout=30)
+        await ubot_.join_chat("xCodee1")
+        await ubot_.join_chat("zasupport")
         await ubot_.join_chat("kynansupport")
-        await ubot_.join_chat("kontenfilm")
-        await ubot_.join_chat("amwangsupport")
-        await ubot_.join_chat("abtnaaa")
-        await ubot_.join_chat("KazuSupportGrp")
     except asyncio.TimeoutError:
         await remove_ubot(user_id)
         await add_prem(user_id)
