@@ -16,7 +16,7 @@ API_ID = int(os.getenv("API_ID", "23855532"))
 
 API_HASH = os.getenv("API_HASH", "3cc6eac0a9fbfe0b2b1da77f043cc9c9")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6309725414:AAHWXXWuvRrZ21PYPi3YD-SdQe1BlUvCT3o")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6358023244:AAHhsr6taVHa4_S8QOKj1qhgbIlEVz8Jr-E")
 
 SESSION = os.getenv("SESSION", "")
 
@@ -39,5 +39,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://kazu:kazu@cluster0.qltj6rs.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://zaza2zaza:77777@cluster0.lzftwjf.mongodb.net/?retryWrites=true&w=majority",
 )
