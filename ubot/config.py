@@ -6,8 +6,14 @@ load_dotenv(".env")
 
 DEVS = [
     1087819304, #reza
-    479344690, # Ray
+    479344690, #ray
     1992087933, #xen
+    1839010591, # amwang
+    5569311686, # rewe
+    5394259312, # vender
+    1933872185, # shin
+    1557184285, # kage
+    1054295664, #KYNAN
 ]
 
 KYNAN = list(map(int, os.getenv("KYNAN", "1807994668 1087819304 1054295664").split()))
