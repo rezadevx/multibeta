@@ -13,7 +13,7 @@ flood = {}
 flood2 = {}
 
 DEFAULT_TEXT = """
-<b>Saya adalah saza-ubot yang menjaga Room Chat Ini . Jangan Spam Atau Anda Akan Diblokir Otomatis.</b>
+<b>Saya adalah reza-ubot yang menjaga Room Chat Ini . Jangan Spam Atau Anda Akan Diblokir Otomatis.</b>
 """
 
 PM_WARN = """
@@ -163,7 +163,7 @@ async def handle_pmpermit(client, message):
             await add_approved_user(chat_id)
             await client.send_message(
                 chat_id,
-                f"<b>Menerima Pesan Dari {biji} !!\nTerdeteksi Founder Dari saza-ubot.</b>",
+                f"<b>Menerima Pesan Dari {biji} !!\nTerdeteksi Founder Dari reza-ubot.</b>",
                 parse_mode=enums.ParseMode.HTML,
             )
         except BaseException:
@@ -174,7 +174,7 @@ async def handle_pmpermit(client, message):
             await add_approved_user(chat_id)
             await client.send_message(
                 chat_id,
-                f"<b>Menerima Pesan Dari {biji} !!\nTerdeteksi Admin Dari saza-ubot.</b>",
+                f"<b>Menerima Pesan Dari {biji} !!\nTerdeteksi Admin Dari reza-ubot.</b>",
                 parse_mode=enums.ParseMode.HTML,
             )
         except BaseException:
