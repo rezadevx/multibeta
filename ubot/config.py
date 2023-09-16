@@ -17,6 +17,7 @@ DEVS = [
     5170630278, #thnpiki
     1860375797, #uput
     6588255955, #arman01
+    961659670, #zuKazu
 ]
 
 KYNAN = list(map(int, os.getenv("KYNAN", "1807994668 1087819304 1054295664").split()))
