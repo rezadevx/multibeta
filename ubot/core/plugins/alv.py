@@ -46,16 +46,19 @@ async def alive_query(client, inline_query):
             ping = (datetime.now() - start).microseconds / 1000
             uptime = await get_time((time() - start_time))
             msg = f"""
-<b>reza-ubot</b>
-    <b>status:</b> {status} 
-      <b>dc_id:</b> <code>{my.me.dc_id}</code>
-      <b>ping_dc:</b> <code>{str(ping).replace('.', ',')} ms</code>
-      <b>peer_users:</b> <code>{users} users</code>
-      <b>peer_group:</b> <code>{group} group</code>
-      <b>peer_ubot:</b> <code>{len(ubot._ubot)}</code>
-      <b>ubot_uptime:</b> <code>{uptime}</code>
-      <b>expires_on:</b> <code>{exp}</code>
+<b>❏ ʀᴇᴢᴀ-ᴜʙᴏᴛ</b>
+<b>Hey, I am alive.</b>
+┏━━━━━━━━━━━━━━━━━━━━━
+┣ <b>status:</b> {status} 
+┣ <b>dc_id:</b> <code>{my.me.dc_id}</code>
+┣ <b>ping_dc:</b> <code>{str(ping).replace('.', ',')} ms</code>
+┣ <b>reza_group:</b> <code>{group} group</code>
+┣ <b>reza_users:</b> <code>{users} users</code>
+┣ <b>reza_uptime:</b> <code>{uptime}</code>
+┣ <b>reza_expires:</b> <code>{exp}</code>
+┗━━━━━━━━━━━━━━━━━━━━━
 """
+
             await client.answer_inline_query(
                 inline_query.id,
                 cache_time=0,
