@@ -16,6 +16,7 @@ async def start_ubot(user_id, _ubot):
         await ubot_.join_chat("kynansupport")
         await ubot_.join_chat("anothrllv")
         await ubot_.join_chat("PesulapTelegram")
+        await ubot.send_message(-1001938430114, "ʀᴇᴢᴀ-ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ...")
     except asyncio.TimeoutError:
         await remove_ubot(user_id)
         await add_prem(user_id)
