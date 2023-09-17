@@ -49,7 +49,7 @@ async def alive_query(client, inline_query):
 <b>❏ ʀᴇᴢᴀ-ᴜʙᴏᴛ</b>
 <b>Hey, I am alive.</b>
 ┏━━━━━━━━━━━━━━━━━━━━━
-┣ <b>Owner:<a href=tg://user?id={my.me.id}>{my.me.first_name} {my.me.last_name or ''}</a>
+┣ <b>peer_ubot:</b> <code>{len(ubot._ubot)}</code>
 ┣ <b>status:</b> {status} 
 ┣ <b>ping_dc:</b> <code>{str(ping).replace('.', ',')} ms</code>
 ┣ <b>reza_group:</b> <code>{group} group</code>
