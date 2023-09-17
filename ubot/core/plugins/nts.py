@@ -5,12 +5,12 @@ import re
 from gc import get_objects
 
 from pykeyboard import InlineKeyboard
-from pyrogram import 
-from pyrogram.types import 
+from pyrogram import *
+from pyrogram.types import *
 
 
 from . import bot, ubot, anjay
-from ubot.config import 
+from ubot.config import *
 from ubot.utils import 
 
 
