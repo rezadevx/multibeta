@@ -10,7 +10,7 @@ from ubot import *
 
 
 async def alive_cmd(client, message):
-    msg = await message.reply("<b>Tunggu Sebentar...</b>", quote=True)
+    msg = await message.reply("<b>ᴍᴏʜᴏɴ ᴍᴇɴᴜɴɢɢᴜ...</b>", quote=True)
     try:
         x = await client.get_inline_bot_results(
             bot.me.username, f"alive {message.id} {client.me.id}"
