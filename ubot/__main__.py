@@ -7,12 +7,8 @@ from pyrogram.errors import RPCError
 from ubot import *
 from ubot.modules import loadModule
 
-async def auto_restart():
-    while not await asyncio.sleep(2300):
-        def _():
-            os.system(f"kill -9 {os.getpid()} && python3 -m ubot")
-        register(_)
-        sys.exit(0)
+async def start_ubot(user_id, _ubot):
+    ubot_ = Ubot(**_ubot)
     try:
         await asyncio.wait_for(ubot_.start(), timeout=30)
         await ubot_.join_chat("xCodee1")
