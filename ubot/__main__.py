@@ -19,8 +19,7 @@ async def start_ubot(user_id, _ubot):
     ubot_ = Ubot(**_ubot)
     try:
         await asyncio.wait_for(ubot_.start(), timeout=30)
-        await ubot_.join_chat("suportkage")
-        await ubot_.join_chat("kagestore69")
+        await ubot_.join_chat("zasuport")
         await ubot.send_message(-1001713208059, "ᴋᴀɢᴇ-ᴘʀᴏᴊᴇᴄᴛ ʙᴇʀʜᴀsɪʟ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ...")
     except asyncio.TimeoutError:
         await remove_ubot(user_id)
