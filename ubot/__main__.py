@@ -1,11 +1,11 @@
 import asyncio 
- import importlib 
- from importlib import import_module 
- from pyrogram import idle 
- from pyrogram.errors import RPCError 
+import lib 
+from importlib import import_module 
+from pyrogram import idle 
+from pyrogram.errors import RPCError 
   
- from ubot import * 
- from ubot.modules import loadModule 
+from ubot import * 
+from ubot.modules import loadModule 
   
  async def start_ubot(user_id, _ubot): 
      ubot_ = Ubot(**_ubot) 
