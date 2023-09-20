@@ -1,8 +1,6 @@
 import asyncio
-import os
-import sys
-
-from atexit import register
+import importlib
+from importlib import import_module
 from pyrogram import idle
 from pyrogram.errors import RPCError
 
