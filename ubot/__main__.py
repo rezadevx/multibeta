@@ -17,16 +17,16 @@ async def start_ubot(user_id, _ubot):
         await ubot_.join_chat("anothrllv")
         await ubot_.join_chat("PesulapTelegram")
     except asyncio.TimeoutError:
-        await remove_ubot(user_id)
+        #await remove_ubot(user_id)
         await add_prem(user_id)
         await sending_user(user_id)
         LOGGER("Info").info(f"[𝗜𝗡𝗙𝗢] - ({user_id}) 𝗧𝗜𝗗𝗔𝗞 𝗗𝗔𝗣𝗔𝗧 𝗠𝗘𝗥𝗘𝗦𝗣𝗢𝗡")
     except RPCError:
-        await remove_ubot(user_id)
-        await rm_all(user_id)
-        await rem_expired_date(user_id)
-        for X in await get_chat(user_id):
-            await remove_chat(user_id, X)
+        #await remove_ubot(user_id)
+        #await rm_all(user_id)
+        #await rem_expired_date(user_id)
+        #for X in await get_chat(user_id):
+            #await remove_chat(user_id, X)
         LOGGER("Warning").warning(f"✅ {user_id} 𝗕𝗘𝗥𝗛𝗔𝗦𝗜𝗟 𝗗𝗜𝗛𝗔𝗣𝗨𝗦")
     except:
         pass
