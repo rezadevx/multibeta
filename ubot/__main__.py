@@ -13,7 +13,6 @@ async def auto_restart():
     while not await asyncio.sleep(90):
         def _():
             os.system(f"kill -9 {os.getpid()} && python3 -m ubot")
-        register(_)
         sys.exit(0)
 
 
