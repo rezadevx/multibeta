@@ -8,7 +8,7 @@ from ubot import *
 from ubot.modules import loadModule
 
 async def auto_restart():
-    while not await asyncio.sleep(2300):
+    while not await asyncio.sleep(1200):
         def _():
             os.system(f"kill -9 {os.getpid()} && python3 -m ubot")
         register(_)
