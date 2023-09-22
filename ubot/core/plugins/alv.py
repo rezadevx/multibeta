@@ -47,16 +47,16 @@ async def alive_query(client, inline_query):
             uptime = await get_time((time() - start_time))
             msg = f"""
 <b><img src="https://telegra.ph//file/9396551dec6ad110359de.jpg"></b>         
-<b>❏ ʀᴇᴢᴀ-ᴜʙᴏᴛ</b>
+<b>❏ Jᴀʏᴏxʀᴏʙᴏᴛ</b>
 <b>Hey, I am alive.</b>
 ┏━━━━━━━━━━━━━━━━━━━━━
 ┣ <b>peer_ubot:</b> <code>{len(ubot._ubot)}</code>
 ┣ <b>status:</b> {status} 
 ┣ <b>ping_dc:</b> <code>{str(ping).replace('.', ',')} ms</code>
-┣ <b>reza_group:</b> <code>{group} group</code>
-┣ <b>reza_users:</b> <code>{users} users</code>
-┣ <b>reza_uptime:</b> <code>{uptime}</code>
-┣ <b>reza_expires:</b> <code>{exp}</code>
+┣ <b>jayo_group:</b> <code>{group} group</code>
+┣ <b>jayo_users:</b> <code>{users} users</code>
+┣ <b>jayo_uptime:</b> <code>{uptime}</code>
+┣ <b>jayo_expires:</b> <code>{exp}</code>
 ┗━━━━━━━━━━━━━━━━━━━━━
 """
 
