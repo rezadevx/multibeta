@@ -45,9 +45,9 @@ async def alive_query(client, inline_query):
             await my.invoke(Ping(ping_id=0))
             ping = (datetime.now() - start).microseconds / 1000
             uptime = await get_time((time() - start_time))
-            msg = f"""
-<b>img src="https://telegra.ph//file/9396551dec6ad110359de.jpg"</b>         
+            msg = f"""        
 <b>❏ Jᴀʏᴏxʀᴏʙᴏᴛ</b>
+
 <b>Hey, I am alive.</b>
 ┏━━━━━━━━━━━━━━━━━━━━━
 ┣ <b>peer_ubot:</b> <code>{len(ubot._ubot)}</code>
