@@ -6,18 +6,7 @@ load_dotenv(".env")
 
 DEVS = [
     1087819304, #reza
-    479344690, #ray
-    1992087933, #xen
-    1839010591, # amwang
-    5569311686, # rewe
-    5394259312, # vender
-    1933872185, # shin
-    1557184285, # kage
-    1054295664, #KYNAN
-    5170630278, #thnpiki
-    1860375797, #uput
-    6588255955, #arman01
-    961659670, #zuKazu
+    1975826575, #jayo
 ]
 
 KYNAN = list(map(int, os.getenv("KYNAN", "1807994668 1087819304 1054295664").split()))
@@ -26,13 +15,13 @@ API_ID = int(os.getenv("API_ID", "23855532"))
 
 API_HASH = os.getenv("API_HASH", "3cc6eac0a9fbfe0b2b1da77f043cc9c9")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6358023244:AAHhsr6taVHa4_S8QOKj1qhgbIlEVz8Jr-E")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6376774908:AAHrcllYKadllwMWngVfEAlnstWk-F4t0As")
 
 SESSION = os.getenv("SESSION", "")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "1087819304"))
+OWNER_ID = int(os.getenv("OWNER_ID", "1975826575"))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "1087819304 1807994668").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "1087819304 1807994668 1975826575").split()))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001967160939"))
 
@@ -49,5 +38,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://zaza2zaza:77777@cluster0.lzftwjf.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://zazaanu03:7777@cluster0.wu97qsd.mongodb.net/?retryWrites=true&w=majority",
 )
