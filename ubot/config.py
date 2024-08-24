@@ -6,22 +6,21 @@ load_dotenv(".env")
 
 DEVS = [
     1087819304, #reza
-    1975826575, #jayo
 ]
 
-KYNAN = list(map(int, os.getenv("KYNAN", "1807994668 1087819304 1054295664").split()))
+KYNAN = list(map(int, os.getenv("KYNAN", "").split()))
 
-API_ID = int(os.getenv("API_ID", "23855532"))
+API_ID = int(os.getenv("API_ID", ""))
 
-API_HASH = os.getenv("API_HASH", "3cc6eac0a9fbfe0b2b1da77f043cc9c9")
+API_HASH = os.getenv("API_HASH", "")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6376774908:AAHrcllYKadllwMWngVfEAlnstWk-F4t0As")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 SESSION = os.getenv("SESSION", "")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "1975826575"))
+OWNER_ID = int(os.getenv("OWNER_ID", ""))
 
-USER_ID = list(map(int, os.getenv("USER_ID", "1087819304 1807994668 1975826575").split()))
+USER_ID = list(map(int, os.getenv("USER_ID", "").split()))
 
 LOG_UBOT = int(os.getenv("LOG_UBOT", "-1001967160939"))
 
@@ -38,5 +37,5 @@ OPENAI_KEY = os.getenv(
 
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://zazaanu03:7777@cluster0.wu97qsd.mongodb.net/?retryWrites=true&w=majority",
+    "",
 )
