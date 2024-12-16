@@ -36,6 +36,6 @@ pytimeparse
 flask
 flask_restful
 uvloop
-Pillow==8.3.2
+Pillow==10.3.0
 motor
 requests
